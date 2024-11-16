@@ -1,0 +1,39 @@
+{
+  "name": "datenschutz-training-rsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.2.1",
+    "@vercel/functions": "^1.5.0",
+    "@vercel/kv": "^3.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.460.0",
+    "next": "15.0.4-canary.13",
+    "react": "19.0.0-rc.1",
+    "react-dom": "19.0.0-rc.1",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^9.15.0",
+    "eslint-config-next": "15.0.4-canary.13",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "react-is": "19.0.0-rc.1"
+  }
+}
